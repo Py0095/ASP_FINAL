@@ -1,0 +1,43 @@
+@page
+@model ProjetFinal.Pages_Conducteurs.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Conducteur</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Conducteur.Nom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Conducteur.Nom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Conducteur.Prenom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Conducteur.Prenom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Conducteur.Sexe)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Conducteur.Sexe)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Conducteur.Nif)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Conducteur.Nif)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Conducteur?.No_Dossier">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

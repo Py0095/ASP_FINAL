@@ -1,0 +1,46 @@
+@page
+@model ProjetFinal.Pages_DGI.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>DGI</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DGI.contravention)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DGI.contravention.No_Fiche)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DGI.Montant)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DGI.Montant)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DGI.Remarque)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DGI.Remarque)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DGI.Date_paiement)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DGI.Date_paiement)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="DGI.ID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

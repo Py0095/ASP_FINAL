@@ -1,0 +1,43 @@
+@page
+@model ProjetFinal.Pages_DGI.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>DGI</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DGI.contravention)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DGI.contravention.No_Fiche)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DGI.Montant)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DGI.Montant)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DGI.Remarque)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DGI.Remarque)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DGI.Date_paiement)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DGI.Date_paiement)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.DGI?.ID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

@@ -1,0 +1,50 @@
+@page
+@model ProjetFinal.Pages_DCPR.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DCPR</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DCPR.Code_agent" />
+            <div class="form-group">
+                <label asp-for="DCPR.Affectation" class="control-label"></label>
+                <input asp-for="DCPR.Affectation" class="form-control" />
+                <span asp-validation-for="DCPR.Affectation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DCPR.Nom" class="control-label"></label>
+                <input asp-for="DCPR.Nom" class="form-control" />
+                <span asp-validation-for="DCPR.Nom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DCPR.Prenom" class="control-label"></label>
+                <input asp-for="DCPR.Prenom" class="form-control" />
+                <span asp-validation-for="DCPR.Prenom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DCPR.Sexe" class="control-label"></label>
+                <input asp-for="DCPR.Sexe" class="form-control" />
+                <span asp-validation-for="DCPR.Sexe" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

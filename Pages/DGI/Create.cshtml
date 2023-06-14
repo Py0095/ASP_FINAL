@@ -1,0 +1,48 @@
+@page
+@model ProjetFinal.Pages_DGI.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>DGI</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DGI.No_Fiche" class="control-label"></label>
+                <select asp-for="DGI.No_Fiche" class ="form-control" asp-items="ViewBag.No_Fiche"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DGI.Montant" class="control-label"></label>
+                <input asp-for="DGI.Montant" class="form-control" />
+                <span asp-validation-for="DGI.Montant" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DGI.Remarque" class="control-label"></label>
+                <input asp-for="DGI.Remarque" class="form-control" />
+                <span asp-validation-for="DGI.Remarque" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DGI.Date_paiement" class="control-label"></label>
+                <input asp-for="DGI.Date_paiement" class="form-control" />
+                <span asp-validation-for="DGI.Date_paiement" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

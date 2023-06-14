@@ -1,0 +1,84 @@
+@page
+@model ProjetFinal.Pages_Contravention.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Contravention[0].Conducteur)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contravention[0].Plaque_vehicule)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contravention[0].Couleur)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contravention[0].Marque)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contravention[0].DCPR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contravention[0].Adresse)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contravention[0].Article_violation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contravention[0].Montant_a_payer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contravention[0].Date_contravention)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Contravention) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Conducteur.No_Dossier)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Plaque_vehicule)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Couleur)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marque)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DCPR.Code_agent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adresse)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Article_violation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Montant_a_payer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date_contravention)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.No_Fiche">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.No_Fiche">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.No_Fiche">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

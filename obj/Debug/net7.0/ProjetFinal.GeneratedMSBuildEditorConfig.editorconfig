@@ -1,0 +1,125 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProjetFinal
+build_property.RootNamespace = ProjetFinal
+build_property.ProjectDir = c:\Users\Jean Duckens SANNON\Desktop\ASPFinal\ProjetFinal\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\Jean Duckens SANNON\Desktop\ASPFinal\ProjetFinal
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/Conducteurs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZHVjdGV1cnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/Conducteurs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZHVjdGV1cnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/Conducteurs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZHVjdGV1cnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/Conducteurs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZHVjdGV1cnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/Conducteurs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZHVjdGV1cnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/Contravention/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udHJhdmVudGlvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/Contravention/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udHJhdmVudGlvblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/Contravention/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udHJhdmVudGlvblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/Contravention/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udHJhdmVudGlvblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/Contravention/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udHJhdmVudGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/DCPR/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRENQUlxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/DCPR/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRENQUlxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/DCPR/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRENQUlxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/DCPR/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRENQUlxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/DCPR/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRENQUlxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/DGI/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcREdJXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/DGI/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcREdJXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/DGI/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcREdJXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/DGI/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcREdJXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/DGI/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcREdJXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Jean Duckens SANNON/Desktop/ASPFinal/ProjetFinal/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-t9x6v49mml

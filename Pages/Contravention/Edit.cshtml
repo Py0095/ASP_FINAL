@@ -1,0 +1,75 @@
+@page
+@model ProjetFinal.Pages_Contravention.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Contravention</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Contravention.No_Fiche" />
+            <div class="form-group">
+                <label asp-for="Contravention.No_Dossier" class="control-label"></label>
+                <select asp-for="Contravention.No_Dossier" class="form-control" asp-items="ViewBag.No_Dossier"></select>
+                <span asp-validation-for="Contravention.No_Dossier" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contravention.Plaque_vehicule" class="control-label"></label>
+                <input asp-for="Contravention.Plaque_vehicule" class="form-control" />
+                <span asp-validation-for="Contravention.Plaque_vehicule" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contravention.Couleur" class="control-label"></label>
+                <input asp-for="Contravention.Couleur" class="form-control" />
+                <span asp-validation-for="Contravention.Couleur" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contravention.Marque" class="control-label"></label>
+                <input asp-for="Contravention.Marque" class="form-control" />
+                <span asp-validation-for="Contravention.Marque" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contravention.Code_agent" class="control-label"></label>
+                <select asp-for="Contravention.Code_agent" class="form-control" asp-items="ViewBag.Code_agent"></select>
+                <span asp-validation-for="Contravention.Code_agent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contravention.Adresse" class="control-label"></label>
+                <input asp-for="Contravention.Adresse" class="form-control" />
+                <span asp-validation-for="Contravention.Adresse" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contravention.Article_violation" class="control-label"></label>
+                <input asp-for="Contravention.Article_violation" class="form-control" />
+                <span asp-validation-for="Contravention.Article_violation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contravention.Montant_a_payer" class="control-label"></label>
+                <input asp-for="Contravention.Montant_a_payer" class="form-control" />
+                <span asp-validation-for="Contravention.Montant_a_payer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contravention.Date_contravention" class="control-label"></label>
+                <input asp-for="Contravention.Date_contravention" class="form-control" />
+                <span asp-validation-for="Contravention.Date_contravention" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
